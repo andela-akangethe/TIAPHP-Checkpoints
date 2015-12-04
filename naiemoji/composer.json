@@ -1,0 +1,8 @@
+{
+    "require": {
+        "slim/slim": "^2.6",
+        "phpunit/phpunit": "4.8.*",
+        "guzzle/guzzle": "^3.9",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}

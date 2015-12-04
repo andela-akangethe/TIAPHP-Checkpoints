@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Naiemoji</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand">Naiemoji</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h2>Endpoints to use and their functionality</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Endpoint</th>
+            <th>Functionality</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GET /</td>
+            <td>Display the homepage</td>
+          </tr>
+          <tr>
+            <td>POST /register</td>
+            <td>Registers a user</td>
+          </tr>
+          <tr>
+            <td>POST /login</td>
+            <td>Logs in a user</td>
+          </tr>
+          <tr>
+            <td>GET /logout</td>
+            <td>Logs out a user</td>
+          </tr>
+          <tr>
+            <td>GET /emojis</td>
+            <td>Shows all the emojis</td>
+          </tr>
+          <tr>
+            <td>GET /emojis/{id}</td>
+            <td>Gets a single emoji</td>
+          </tr>
+          <tr>
+            <td>POST /emoji</td>
+            <td>Creates a new emoji</td>
+          </tr>
+          <tr>
+            <td>PUT /emoji/{id}</td>
+            <td>Updates an emoji</td>
+          </tr>
+          <tr>
+            <td>PATCH /emoji/{id}</td>
+            <td>Updates an emoji</td>
+          </tr>
+          <tr>
+            <td>DELETE /emoji/{id}</td>
+            <td>Deletes an emoji</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+        <p><em>For more inforemation please read the <strong>README</strong></em></p>
+    </div>
+</body>
+</html>
