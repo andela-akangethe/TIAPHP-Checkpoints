@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit bootstrap="./vendor/autoload.php">
+  <testsuites>
+    <testsuite name="naiemoji">
+      <file>tests/NaiemojiTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
